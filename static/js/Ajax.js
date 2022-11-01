@@ -61,7 +61,7 @@ $(document).ready(function () {
                 <div class="guide col-lg-4 col-md-6 col-sm-12 mx-auto">
                 <img class="img-fluid" src="${blog.image}">
                 <div class="content">
-                  <h3> ${blog.name}</h3>
+                  <p> ${blog.name}</p>
                   <p>${blog.discription}</p>
                   <div class="div-actions">
                     <p class="actions">نویسنده : احمدرضا سلیمانی</p>

@@ -90,7 +90,12 @@ body {
 .div-button-login button a {
     text-decoration: none;
     color: black;
+
 } 
+
+.div-button-login button {
+    overflow: hidden;
+}
 
 .div-button-login {
     display: flex;
@@ -304,7 +309,7 @@ li a,.dropbtn {
     width: 45px !important;
     height: 45px !important;
     border-radius: 50% !important;
-    box-shadow: 1px 1px 10px 3px #dddcdc !important;
+    box-shadow: 0px 1px 1px rgba(0,0,0, 0.14), 0px 1px 3px rgba(0,0,0,0.2) !important;
 }
 
 /*  -- - - - - - - - - - - -  - -- - - -  -- - -  - - SERVICES  - - - - - - - - - - - - - - -- - -  - - */
@@ -445,6 +450,10 @@ li a,.dropbtn {
     border: 1px solid #FFFFFF ;
     color: #fff ;
     border-radius: 8px;
+}
+
+.margin-top-24{
+    margin-top: 24px ;
 }
 
 .slide-container{
@@ -598,13 +607,23 @@ li a,.dropbtn {
     padding: 10px 15px;
 }
 
-.content h3{
+.content p:first-child{
     margin-bottom: 16px;
+    font-weight: 700 ;
+    font-size: 18px;
 }
 
-.div-actions {
-    color: rgb(108, 108, 108);
-    font-size: 0.95em;
+.div-actions p{
+    color: rgba(100, 101, 99, 1) !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+
+}
+
+.div-button-neveshteha {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 43px;
 }
 
 .guides .guide .content p {

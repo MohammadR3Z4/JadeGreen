@@ -65,7 +65,7 @@
                             <div class="col-md-9 col-lg-12">
                                 <p class="text-offCAT">پیشنهاد های شگفت انگیز</p>
                             </div>
-                            <div class="col-md-3 col-lg-12">
+                            <div class="col-md-3 col-lg-12 margin-top-24">
                                 <button type="button" name="button" class="button-seeAll mr-md-auto">
                                 <span class="text-button"> <a href="{% url 'homeviewname'%}">مشاهده همه</a></span>
                                 <i class="material-symbols-outlined">keyboard_backspace</i>
@@ -76,7 +76,7 @@
 
                     <div class="col-lg-10">
                         <div class="slide-container swiper">
-                            <div class="slide-content">
+                            <div class="slide-content slide-content-1">
                                 <div class="card-wrapper swiper-wrapper product-model">
                                           
                                      <!--  from ajax -->
@@ -84,8 +84,8 @@
                                 </div>
                             </div>
                                             
-                            <img src="{% static 'images/arrow-right.svg' %}" class="swiper-button-next swiper-navBtn arrow flesh">
-                            <img src="{% static 'images/arrow-left.svg' %}" class="swiper-button-prev swiper-navBtn arrow flesh">
+                            <img src="{% static 'images/arrow-right.svg' %}" class="swiper-button-next swiper-navBtn arrow flesh swiper-next-1">
+                            <img src="{% static 'images/arrow-left.svg' %}" class="swiper-button-prev swiper-navBtn arrow flesh swiper-prev-1">
                     
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                             <div class="col-md-9 col-lg-12">
                                 <p class="text-offCAT text-category">دسته بندی فعالیت ها</p>
                             </div>
-                            <div class="col-md-3 col-lg-12">
+                            <div class="col-md-3 col-lg-12 margin-top-24">
                                 <button type="button" name="button" class="button-seeAll col-sm-6">
                                 <span class="text-button"> <a href="{% url 'homeviewname'%}"> مشاهده همه</a></span>
                                 <i class="material-symbols-outlined">keyboard_backspace</i>
@@ -121,21 +121,21 @@
                     </div>
                     <div class="col-lg-10 col-sm-12">
                         <div class="slide-container swiper">
-                            <div class="slide-content">
+                            <div class="slide-content slide-content-2">
                                 <div class="card-wrapper swiper-wrapper activities-model">
                                     <!-- Activity From Ajax -->
                                 </div>
                             </div>
                 
-                            <img src="{% static 'images/arrow-right.svg' %}" class="swiper-button-next swiper-navBtn arrow flesh">
-                            <img src="{% static 'images/arrow-left.svg' %}" class="swiper-button-prev swiper-navBtn arrow flesh">
+                            <img src="{% static 'images/arrow-right.svg' %}" class="swiper-button-next swiper-navBtn arrow flesh swiper-next-2">
+                            <img src="{% static 'images/arrow-left.svg' %}" class="swiper-button-prev swiper-navBtn arrow flesh swiper-prev-2">
                         </div>
                 
                     </div>
                 </div>
             </div>
 
-                <div class="div-button">
+                <div class="div-button ">
                   <button type="button" name="button" class="button-responsive">
                     <span class="text-button"> <a class="seeAllresWhite" href="{% url 'homeviewname'%}"> مشاهده همه </a></span>
                     <i class="material-symbols-outlined">arrow_back_ios</i>
@@ -149,13 +149,18 @@
         <section id="guides-posts" class="container-fluid">
                 <div class="posts">
                   <p>نوشته ها</p>
-                  <button class="button">
-                    <span class="text-button"> <a class="seeallA" href="{% url 'homeviewname'%}"> مشاهده همه</a></span>
-                    <i class="material-symbols-outlined">keyboard_backspace</i>
-                  </button>
                 </div>
                 <div class="row guides">
                   <!-- Blog From Ajax -->
+                </div>
+
+                <div class="div-button-neveshteha ">
+                
+                        <button class="button">
+                            <span class="text-button"> <a class="seeallA" href="{% url 'homeviewname'%}"> مشاهده همه</a></span>
+                            <i class="material-symbols-outlined">keyboard_backspace</i>
+                        </button>
+
                 </div>
 
                 <div class="div-button">
